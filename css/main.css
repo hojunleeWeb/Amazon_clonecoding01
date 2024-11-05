@@ -15,7 +15,7 @@
 .flex-components {
   display: flex;
 }
-.grid-component {
+.grid-container {
   display: grid;
 }
 .absolute-component {
@@ -92,13 +92,21 @@ main {
 }
 .background_image {
   background-color: aquamarine;
-  width: 100%;
+  width: 85%;
   height: 500px;
+  margin: auto;
+  z-index: 1;
 }
 .product_container {
-  top: 100px;
   margin: 0 auto;
-  background: rgb(233, 233, 233);
-  width: 95%;
-  height: 500px;
+  width: 80%;
+  height: 800px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.product {
+  background-color: #4a6159;
+  margin: 20px;
+  text-align: center;
+  font-size: 35px;
+  z-index: 2;
 }
