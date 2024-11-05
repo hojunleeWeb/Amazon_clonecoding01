@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Amazon.com</title> 
-        <link rel="stylesheet" href="/css/main.css">
-    </head>
-    <body>
-        <header class="main_header darkerwhen_sidemenu_open">
-            <div class="top_header inline-component-container darkerwhen_sidemenu_open">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Amazon.com</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <header class="main_header">
+      <div class="top_header inline-component-container darkerwhen_sidemenu_open"></div>
+      <nav class="header_menu darkerwhen_sidemenu_open">
+        <ul>
+          <li class="header_menu_link inline-component">
+            <a href="javascript:void(0)" id="full_side_menu_open_btn" class="underline_none_a">all</a>
+          </li>
 
-            </div>
-            <nav class="header_menu darkerwhen_sidemenu_open">
-                <ul>
-                    <li class="header_menu_link inline-component">
-                        <a href="#" id="full_side_menu_open_btn" class="underline_none_a">all</a>
-                    <li class="header_menu_link inline-component"><a href="#" class="underline_none_a">Today's Deals</a></li>
-                    <li class="header_menu_link inline-component"><a href="#" class="underline_none_a">Customer Service</a></li>
-                    <li class="header_menu_link inline-component"><a href="#" class="underline_none_a">Registry</a></li>
-                </ul>
-            </nav>
-            <div class="full_side_menu_container">
-                <div class="full_side_menu_header">
-                    <a href="">Hello, user!</a>
-                </div>
-                <div class="full_side_menu_main">
-                    <a href="">about</a>
-                    <a href="">Service</a>
-                    <a href="">client</a>
-                    <a href="">contact</a>
-                </div>
-                <a href="" class="full_side_menu_close_btn">cancel</a>
-            </div>
-           
-        </header>
-        <main class="main_container">
-            <div class="background_image absolute-component darkerwhen_sidemenu_open">
-
-            </div>
-            <div class="product_container grid-component-container relative-component darkerwhen_sidemenu_open">
-
-            </div>
-        </main>
-        <footer class="footer_container block-component-container">
-
-        </footer>
-
-    </body>
-    <script src="/script/main.js"></script>
+          <li class="header_menu_link inline-component">
+            <a href="#" class="underline_none_a">Today's Deals</a>
+          </li>
+          <li class="header_menu_link inline-component">
+            <a href="#" class="underline_none_a">Customer Service</a>
+          </li>
+          <li class="header_menu_link inline-component">
+            <a href="#" class="underline_none_a">Registry</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="full_side_menu_container" id="side_menu_container">
+        <a href="javascript:void(0)" id="full_side_menu_close_btn" class="side_menu_close_btn absolute-component">X </a>
+        <a href="">
+          <div class="full_side_menu_header flex-container">
+            <div class="full_side_menu_icon flex-components">○</div>
+            <div class="full_side_menu_profile flex-components">Hello, user!</div>
+          </div>
+        </a>
+        <div class="full_side_menu_main relative-component">
+          <a href="">about</a>
+          <a href="">Service</a>
+          <a href="">client</a>
+          <a href="">contact</a>
+        </div>
+      </div>
+    </header>
+    <main class="main_container">
+      <div class="background_image absolute-component darkerwhen_sidemenu_open"></div>
+      <div class="product_container grid-component-container relative-component darkerwhen_sidemenu_open"></div>
+    </main>
+    <footer class="footer_container block-component-container"></footer>
+  </body>
+  <script src="/script/main.js"></script>
 </html>
