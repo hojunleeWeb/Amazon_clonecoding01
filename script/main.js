@@ -15,7 +15,7 @@ function openSideMenu() {
   });
   document.getElementById("side_menu_container").style.width = "400px";
 }
-async function closeSideMenu() {
+function closeSideMenu() {
   document.getElementById("side_menu_container").style.width = "0";
   let darker_components = document.querySelectorAll(".darkerwhen_sidemenu_open");
   darker_components.forEach((element) => {

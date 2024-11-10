@@ -90,23 +90,41 @@
 main {
   align-items: center;
 }
+.background_image_container {
+  width: 95%;
+  height: 300px;
+  margin: auto;
+  z-index: 0;
+  overflow-y: visible;
+}
 .background_image {
   background-color: aquamarine;
-  width: 85%;
-  height: 500px;
-  margin: auto;
-  z-index: 1;
+  width: 100%;
+  height: 450px;
 }
 .product_container {
   margin: 0 auto;
-  width: 80%;
-  height: 800px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 95%;
+  height: 600px;
+  padding-top: 10px;
 }
 .product {
   background-color: #4a6159;
-  margin: 20px;
+  margin: 5px 15px 5px 15px;
   text-align: center;
   font-size: 35px;
-  z-index: 2;
+}
+.product1_container {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.product2_container {
+  height: 200px;
+}
+.product2_container div {
+  margin: 0px 15px 0px 15px;
+  height: 100%;
+}
+.product3_container {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 300px;
 }
