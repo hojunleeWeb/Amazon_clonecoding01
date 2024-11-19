@@ -26,6 +26,9 @@
 .fixed_component {
   position: fixed;
 }
+.sticky-component {
+  position: sticky;
+}
 .darken_component {
   transition: 0.3s;
 }
