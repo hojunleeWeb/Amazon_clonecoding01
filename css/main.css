@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  color: white;
 }
 .inline-component {
   display: inline;
@@ -24,21 +23,30 @@
 .relative-component {
   position: relative;
 }
-.darkerwhen_sidemenu_open {
+.fixed_component {
+  position: fixed;
+}
+.darken_component {
   transition: 0.3s;
 }
 .top_header {
-  height: 50px;
+  height: 63px;
   width: 100%;
   background-color: rgb(16, 79, 16);
 }
 .header_menu {
-  height: 30px;
+  height: 38px;
   width: 100%;
   background-color: rgb(24, 125, 24);
 }
+.header_menu ul {
+  padding: 8px 0px;
+}
 .header_menu_link {
   margin: 0 10px 0 10px;
+}
+.header_menu_link a {
+  color: white;
 }
 .underline_none_a {
   text-decoration-line: none;

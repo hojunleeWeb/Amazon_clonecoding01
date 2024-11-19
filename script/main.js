@@ -9,7 +9,7 @@ function openSideMenu() {
   // document.getElementsByClassName("full_side_menu_container").style.width = "250px"
   //document.getElementsByClassName으로 접근하는경우 html element를 반환하지 않고
   //HtmlCollection 을 반환함으로 querySelector를 사용하던가 [0]을 붙여 배열 내의 요소로 선택해야 style 요소로 접근할수있다.
-  let darker_components = document.querySelectorAll(".darkerwhen_sidemenu_open");
+  let darker_components = document.querySelectorAll(".darken-component");
   darker_components.forEach((element) => {
     element.style.filter = "brightness(20%)";
   });
@@ -17,7 +17,7 @@ function openSideMenu() {
 }
 function closeSideMenu() {
   document.getElementById("side_menu_container").style.width = "0";
-  let darker_components = document.querySelectorAll(".darkerwhen_sidemenu_open");
+  let darker_components = document.querySelectorAll(".darken-component");
   darker_components.forEach((element) => {
     element.style.removeProperty("filter");
   });
