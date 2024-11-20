@@ -33,7 +33,7 @@
   position: sticky;
 }
 .darken_component {
-  transition: 0.3s;
+  transition: 0.6s;
 }
 .hover-border-animation1 {
   border-radius: 3px;
@@ -102,10 +102,14 @@
   background-color: rgb(24, 125, 24);
 }
 .header_menu ul {
-  padding: 8px 0px;
+  align-items: center;
+  height: 100%;
 }
 .header_menu_link {
-  margin: 0 10px 0 10px;
+  margin: 0 5px 0 5px;
+  padding: 0 10px 0 10px;
+  height: 94%;
+  align-items: center;
 }
 .header_menu_link a {
   color: white;
@@ -120,19 +124,20 @@
   top: 0;
   left: 0;
   overflow-x: hidden;
-  transition: 0.3s;
+  transition: 0.5s;
   transition-property: width; /*animation이 적용되는 css tag를 구체적으로 명시*/
 }
 .full_side_menu_container a {
   font-size: 36px;
   text-decoration: none;
   display: block;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .full_side_menu_header {
   align-items: center;
-  background-color: rgb(13, 62, 13);
+  background-color: rgb(13, 20, 47);
   padding: 5px;
+  color: white;
 }
 .full_side_menu_icon {
   padding: 0 10px 3px 10px;
@@ -145,7 +150,13 @@
 }
 .full_side_menu_main {
   height: 100%;
-  background-color: rgb(104, 74, 74);
+  background-color: rgb(255, 255, 255);
+}
+.full_side_menu_main a {
+  align-items: center;
+  color: black;
+  padding: 0px 30px 20px 30px;
+  font-size: 20px;
 }
 #full_side_menu_close_btn {
   /* display: none; */
