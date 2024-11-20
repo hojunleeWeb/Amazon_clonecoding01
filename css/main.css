@@ -17,6 +17,9 @@
 .grid-container {
   display: grid;
 }
+.inline_block-component {
+  display: inline-block;
+}
 .absolute-component {
   position: absolute;
 }
@@ -32,10 +35,66 @@
 .darken_component {
   transition: 0.3s;
 }
+.hover-border-animation1 {
+  border-radius: 3px;
+}
+.hover-border-animation1:hover {
+  border: 1px white solid;
+}
+.hover-border-animation2 {
+  border-radius: 5px;
+}
+.hover-border-animation2:hover {
+  box-shadow: 2px 3px 10px 0;
+}
+
 .top_header {
   height: 63px;
   width: 100%;
   background-color: rgb(16, 79, 16);
+  align-items: center;
+}
+.header_logo {
+  width: 12%;
+  height: 65%;
+  background-color: white;
+  margin-left: 15px;
+}
+.top_header_deliveredCountry {
+  width: 17%;
+  height: 65%;
+  background-color: white;
+  margin: 5px;
+}
+.searchbox {
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  margin: 2px;
+}
+.top_header_lang {
+  width: 8%;
+  height: 65%;
+  background-color: white;
+  margin: 2px;
+}
+.top_header_account {
+  width: 14%;
+  height: 65%;
+  background-color: white;
+  margin: 2px;
+}
+.top_header_orders {
+  width: 8%;
+  height: 65%;
+  background-color: white;
+  margin: 2px;
+}
+.top_header_carts {
+  width: 8%;
+  height: 65%;
+  background-color: white;
+  margin: 2px;
 }
 .header_menu {
   height: 38px;
