@@ -1,0 +1,14 @@
+{
+  "name": "amazon_clonecoding01",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r amazon clone coding\r =======\r Amazon clone coding\r >>>>>>> ed351d1fca812ecbb0ec17bf416ac26837517f77",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
